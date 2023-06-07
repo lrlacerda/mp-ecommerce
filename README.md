@@ -1,46 +1,57 @@
 # mp-ecommerce
 
-Este e-commerce de ejemplo será la base para la integración de MercadoPago con `nodejs`.
+# Exemplo de Integração do MercadoPago com Node.js
 
-## Antes de comenzar
+Este é um exemplo de integração do MercadoPago com Node.js para um e-commerce. A integração permite processar pagamentos e receber notificações de transações usando a API do MercadoPago.
 
-Esta aplicación debe estar accesible mediante un dominio público en internet antes de comenzar con la integración y para ello usaremos [Heroku](https://heroku.com).
+## Pré-requisitos
 
-Requisitos para realizar la integración: 
-* Cuenta en GitHub.
-* Cuenta en [Heroku](https://heroku.com).
+Antes de começar, certifique-se de ter o seguinte:
 
-## Haciendo pública mi e-commerce de ejemplo
+- Conta no GitHub.
+- Conta no Heroku.
 
-1. Realizar un fork de este proyecto. Considerando que tu usuario de GitHub es `username`, tendremos el repositorio https://github.com/username/mp-ecommerce-nodejs
-2. Ingresar a tu cuenta de Heroku
-3. Crear una aplicación en Heroku para realizar el deploy de nuestro e-commerce. Nombrarla de la siguiente manera *username*-mp-commerce-nodejs. Ejemplo:
-<div style="text-align: center;" >
-<img src="docs/step0.png" width=400 />
-</div>
+## Configuração
 
-4. Conectar a nuestra aplicación en Heroku el repositorio "forkeado" en el paso 1
-<div style="text-align: center;" >
-<img src="docs/step1.png" width=800 />
-</div>
+Siga as etapas abaixo para configurar o projeto:
 
-5. Activar el deploy autómatico ante cualquier cambio en el branch "master". Realizar un deploy manualmente, mediante la opción "Deploy branch" para comprobar que la app esté funcionando correctamente.
+1. Faça um fork deste repositório.
+2. Faça login na sua conta do Heroku.
+3. Crie uma nova aplicação no Heroku e conecte-a ao seu repositório forkado.
+4. Ative o deploy automático para o branch "master" ou faça um deploy manual selecionando a opção "Deploy branch".
+5. Aguarde até que a implantação seja concluída e verifique se a aplicação está funcionando corretamente.
 
-<div style="text-align: center;" >
-<img src="docs/step2.png" width=800 />
-</div>
+## Acesso à Aplicação
 
-6. Nuevamente considerando que tu usuario de GitHub es `username` (substituir en la URL por el correcto), acceder a https://username-mp-ecommerce-nodejs.herokuapp.com/ y validar que la app esté corriendo. Deberás visualizar algo como lo siguiente
+Após a implantação, você pode acessar a aplicação do e-commerce através do seguinte URL: `https://seu-usuario-mp-ecommerce-nodejs.herokuapp.com/`.
 
-<div style="text-align: center;" >
-<img src="docs/step3.png" width=800 />
-</div>
+## Executando Localmente
 
+Para executar a aplicação localmente, siga as etapas abaixo:
 
-## Entorno local
+1. Clone o repositório em sua máquina local.
+2. Abra o terminal e navegue até o diretório do projeto.
+3. Execute o seguinte comando para instalar as dependências:
 
-Para ejecutar la aplicación local, utilizar el comando `npm`.
+   ```
+   npm install
+   ```
 
-```
-npm install && npm start
-```
+4. Em seguida, inicie a aplicação localmente com o comando:
+
+   ```
+   npm start
+   ```
+
+## Documentação do MercadoPago
+
+Para obter mais informações sobre a integração do MercadoPago com Node.js, consulte a documentação oficial do MercadoPago: [Documentação do MercadoPago](https://www.mercadopago.com.br/developers/pt/guides/online-payments/web-checkout/introduction/).
+
+## Contribuição
+
+Se você quiser contribuir para este projeto, fique à vontade para enviar pull requests. Serão muito bem-vindos!
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+
