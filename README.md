@@ -19,7 +19,7 @@ Siga as etapas abaixo para configurar o projeto:
 2. Faça login na sua conta do Heroku.
 3. Crie uma nova aplicação no Heroku e conecte-a ao seu repositório forkado.
 4. Ative o deploy automático para o branch "master" ou faça um deploy manual selecionando a opção "Deploy branch".
-5. Aguarde até que a implantação seja concluída e verifique se a aplicação está funcionando corretamente.
+6. Aguarde até que a implantação seja concluída e verifique se a aplicação está funcionando corretamente.
 
 ## Acesso à Aplicação
 
